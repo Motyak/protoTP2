@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TP2.jnlp">
+  <information>
+    <title>TP2</title>
+    <vendor>Tom</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TP2.jar" size="2914" download="eager" />
+    <jar href="lib\gs-core-2.0.jar" size="850617" download="eager" />
+    <jar href="lib\gs-ui-javafx-2.0.jar" size="439802" download="eager" />
+    <jar href="lib\javafx-base-13-linux.jar" size="744658" download="eager" />
+    <jar href="lib\javafx-base-13.jar" size="302" download="eager" />
+    <jar href="lib\javafx-controls-13-linux.jar" size="2508887" download="eager" />
+    <jar href="lib\javafx-controls-13.jar" size="306" download="eager" />
+    <jar href="lib\javafx-fxml-13-linux.jar" size="125614" download="eager" />
+    <jar href="lib\javafx-fxml-13.jar" size="302" download="eager" />
+    <jar href="lib\javafx-graphics-13-linux.jar" size="4915814" download="eager" />
+    <jar href="lib\javafx-graphics-13.jar" size="306" download="eager" />
+    <jar href="lib\mbox2-1.0.jar" size="23238" download="eager" />
+    <jar href="lib\pherd-1.0.jar" size="46227" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="tp2.TP2"  name="TP2" />
+  <update check="always"/>
+</jnlp>
